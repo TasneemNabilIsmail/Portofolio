@@ -1,0 +1,29 @@
+:host {
+  .side-bar {
+    min-width: 200px;
+    display: flex;
+    height: 99.7vh;
+    background-color: var(--primary);
+    padding: 30px;
+    .img {
+      width: 200px;
+      height: 200px;
+      border: 5px solid white;
+      border-radius: 100px;
+      overflow: clip;
+      background-color: var(--color-white);
+    }
+  }
+  .titles {
+    text-align: center;
+    margin-top:2rem;
+    h1,
+    h6 {
+      color: white;
+
+    }
+    h1{
+      margin-bottom:.5rem;
+    }
+  }
+}
