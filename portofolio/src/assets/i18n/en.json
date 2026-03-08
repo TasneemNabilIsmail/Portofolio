@@ -1,7 +1,38 @@
 {
   "portfolio": {
     "authorName": "Tasneem Ismail",
-    "authorJob": "Senior Front End Developer"
+    "authorJob": "Senior Front End Developer",
+    "sideBar": [
+      {
+        "title": "Home",
+        "url": "home",
+        "icon": ""
+      },
+      {
+        "title": "Resume",
+        "url": "resume",
+        "icon": ""
+      },
+      {
+        "title": "Skills",
+        "url": "skills",
+        "icon": ""
+      },
+
+      {
+        "title": "Contact",
+        "url": "contact",
+        "icon": ""
+      }
+    ],
+    "bio": {
+      "welcome": "Welcome To My World",
+      "name": "Tasneem Ismail",
+      "job_title": "Senior",
+      "job": "Front End Developer",
+      "description": "A highly motivated and detail-oriented Senior Angular Front-End Developer seeking a challenging role to apply my skills in Angular, JavaScript, CSS, HTML5, and Node.js to create dynamic, user-friendly, and responsive web applications",
+      "download": "Download CV"
+    }
   },
   "shared": {
     "ar": "ar",

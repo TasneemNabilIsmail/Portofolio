@@ -1,2 +1,7 @@
 {
+    "workbench.colorCustomizations": {
+        "statusBar.noFolderBackground": "#6D4C41",
+        "statusBar.noFolderForeground": "#FBF9F8"
+    },
+    "mos.port": ""
 }

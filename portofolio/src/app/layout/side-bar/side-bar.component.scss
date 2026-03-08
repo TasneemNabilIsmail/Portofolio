@@ -1,29 +1,57 @@
 :host {
   .side-bar {
-    min-width: 200px;
-    display: flex;
-    height: 99.7vh;
     background-color: var(--primary);
-    padding: 30px;
-    .img {
-      width: 200px;
-      height: 200px;
-      border: 5px solid white;
-      border-radius: 100px;
-      overflow: clip;
-      background-color: var(--color-white);
-    }
-  }
-  .titles {
-    text-align: center;
-    margin-top:2rem;
-    h1,
-    h6 {
-      color: white;
+    min-width: 350px;
+    display: flex;
+    height: 100vh;
+    background-color: var(--primary);
+    gap: 30px;
+    padding: 40px 20px;
 
+    .profile {
+      .img {
+        width: 200px;
+        height: 200px;
+        border: 5px solid white;
+        border-radius: 100px;
+        overflow: clip;
+        background-color: var(--white);
+      }
+
+      .titles {
+        text-align: center;
+        margin-top: 2rem;
+        h1,
+        h6 {
+          color: white;
+        }
+        h1 {
+          margin-bottom: 0.5rem;
+        }
+      }
     }
-    h1{
-      margin-bottom:.5rem;
+
+    .agenda {
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        a.item {
+          text-decoration: none;
+          gap: 20px;
+          color: var(--primary);
+          font-weight: 600;
+          background-color: var(--white);
+          padding: 5px 20px;
+          border-radius: 70px;
+
+          &:hover {
+            color: var(--white);
+            background-color: var(--primary);
+            border: 3px solid var(--white);
+          }
+        }
+      }
     }
   }
 }

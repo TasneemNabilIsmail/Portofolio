@@ -1,5 +1,15 @@
-:host{
-.main-layout{
-  min-height: 100vh;
-}
+:host {
+  .main-layout {
+    min-height: 100vh;
+    // justify-content: space-between;
+    padding-inline-start: 350px;
+    app-side-bar {
+      position: fixed;
+
+    }
+    app-main{
+      width:100%;
+      padding:50px;
+    }
+  }
 }

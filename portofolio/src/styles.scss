@@ -3,8 +3,17 @@
 
 @import "@picocss/pico/css/pico.min.css";
 
-
 html[dir="rtl"] {
   direction: rtl;
   text-align: right;
+  app-side-bar {
+    right: 0;
+    left: unset;
+  }
+}
+html[dir="ltr"] {
+  app-side-bar {
+    left: 0;
+    right: unset;
+  }
 }

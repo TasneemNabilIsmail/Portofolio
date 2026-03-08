@@ -12,7 +12,6 @@ export class TranslationService {
 
     // Optional: persist last used language
     const savedLang = localStorage.getItem('lang');
-    debugger;
     if (savedLang) {
       this.translate.use(savedLang);
       this.updateDirection(savedLang);

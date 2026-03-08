@@ -1,14 +1,21 @@
-<div class="side-bar  d-flex flex-between flex-col">
+<div class="side-bar  d-flex flex-col">
   <div class="profile d-flex flex-center flex-col">
     <div class="img">
       <img src="assets/images/avatar2.png">
     </div>
-   <div class="titles">
-     <h1>{{"portfolio.authorName"|translate}}</h1>
-    <h6>{{"portfolio.authorJob"|translate}}</h6>
-   </div>
+    <div class="titles">
+      <h1>{{"portfolio.authorName"|translate}}</h1>
+      <h6>{{"portfolio.authorJob"|translate}}</h6>
+    </div>
   </div>
   <div class="agenda">
+    <div class="items">
+      @for(item of items(); track item){
+      <a [routerLink]="[]" [fragment]="item.url" class="item">{{item.title|translate}}</a>
+
+      }
+
+    </div>
     <button (click)="changeLang()">{{ currentLang$()=='ar'?("shared.en"|translate):("shared.ar"|translate)}}</button>
   </div>
 

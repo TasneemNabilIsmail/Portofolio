@@ -1,0 +1,53 @@
+:host {
+  .left {
+    max-width: 600px;
+    h2 {
+      color: var(--primary);
+    }
+    h1 {
+      color: var(--secondary);
+    }
+    .job {
+      display: block;
+      margin-top: 1rem;
+    }
+    .job-title {
+      color: var(--secondary) !important;
+    }
+    .btn.download-cv {
+      background-color: var(--secondary);
+      border: 1px solid var(--secondary);
+      &:focus {
+        box-shadow: none;
+        background: rgb(120 39 112);
+      }
+    }
+  }
+  .right {
+    .image {
+      position: relative;
+      border-radius: 50%;
+      overflow: clip;
+      // border: 8px solid var(--primary);
+      img {
+        max-width: 650px;
+      }
+      // .overlay {
+      //   position: absolute;
+      //   inset: 0;
+      //   clip-path: polygon(
+      //     0% 0%,
+      //     100% 0%,
+      //     100% 35%,
+      //     56% 18%,
+      //     71% 100%,
+      //     40% 100%,
+      //     42% 18%,
+      //     0% 35%
+      //   );
+      //   rotate: -376deg;
+      //   background: #a81b9a69;
+      // }
+    }
+  }
+}
